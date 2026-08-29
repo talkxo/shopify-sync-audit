@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+dist/
+
+# Env & Secrets
+.env
+
+# OS Files
+.DS_Store
+
+# Testing Artifacts
+TalkXO_Audit_Report.txt
+assets/
+dummy.csv

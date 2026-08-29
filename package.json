@@ -1,0 +1,31 @@
+{
+  "name": "shopify-sync-audit",
+  "version": "1.0.0",
+  "description": "Shopify Catalog Consistency Engine by TalkXO",
+  "main": "dist/index.js",
+  "bin": {
+    "shopify-sync-audit": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^5.0.0",
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.0.0",
+    "csv-parser": "^3.0.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "ora": "^5.4.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/clear": "^0.1.2",
+    "@types/figlet": "^1.5.8",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
