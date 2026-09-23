@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🛒 Shopify Sync Audit by TalkXO</h1>
+  <h1>Shopify Sync Audit 🛒</h1>
   <p><strong>The ultimate CLI for enforcing 2026 Shopify Catalog Standards.</strong></p>
 </div>
 
@@ -14,7 +14,7 @@ Stop finding out about bad data *after* you upload. Catch it locally.
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 You don't need to install this globally. You can run it instantly using `npx`:
 
@@ -24,26 +24,26 @@ The CLI will launch a beautiful **Interactive Mode** (complete with an ASCII ani
 
 ---
 
-## 🛡️ The Standards Engine
+## The Standards Engine
 
 Shopify Sync Audit enforces extremely strict standards designed to maximize **SEO**, **Conversion**, and **Inventory Tracking**.
 
-- **🌐 SEO Compliance:** 
+- **SEO Compliance:** 
   - Validates that Title lengths are perfectly optimized for Google (20-70 characters).
   - Ensures Product Handles (URL slugs) are strictly web-safe.
-- **📸 Conversion / Media:** 
+- **Conversion / Media:** 
   - Enforces the modern 4-image minimum rule (e.g., Front, Back, Detail, Lifestyle).
-- **📝 Content & Copywriting:** 
+- **Content & Copywriting:** 
   - Rejects short descriptions (<150 chars).
   - *Dynamically reads your copy* to ensure it contains at least two mandatory sections (e.g., "Materials/Fabric", "Care Instructions", or "Size Guide").
-- **📦 Inventory Integrity:** 
+- **Inventory Integrity:** 
   - Validates pricing rules (Price > 0).
   - Enforces strict, standardized sizing schemas (XS, S, M, L, XL, XXL, OS).
   - Prevents missing SKUs or negative inventory values.
 
 ---
 
-## 📊 Beautiful, Actionable Reporting
+## Beautiful, Actionable Reporting
 
 If a product fails the audit, the CLI won't just crash. It does two things:
 
@@ -52,7 +52,7 @@ If a product fails the audit, the CLI won't just crash. It does two things:
 
 ---
 
-## 🛠️ Advanced Usage
+## Advanced Usage
 
 If you prefer to skip the interactive prompts, you can pass your files directly via flags:
 
@@ -63,5 +63,5 @@ Ensure your CSV contains standard Shopify headers (e.g., `Handle`, `Title`, `Des
 
 ---
 
-## 🏢 About TalkXO
+## About TalkXO
 This tool is proudly maintained and open-sourced by **[TalkXO](https://hello.talkxo.com)**, a premier agency specializing in elite Shopify builds, migrations, and technical e-commerce operations.
